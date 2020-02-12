@@ -94,6 +94,7 @@
             this.buttonCalculate.TabIndex = 6;
             this.buttonCalculate.Text = "Calculate Discount";
             this.buttonCalculate.UseVisualStyleBackColor = true;
+            this.buttonCalculate.Click += new System.EventHandler(this.buttonCalculate_Click);
             // 
             // labelError
             // 
@@ -118,7 +119,6 @@
             this.Controls.Add(this.labelNoDiscount);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
